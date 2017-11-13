@@ -2,4 +2,4 @@
 Minimal Golang project with deploy scripts.
 
 # License
-MIT
+[MIT](License)
