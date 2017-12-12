@@ -1,4 +1,4 @@
-# golang-starter-kit
+# app
 Minimal Golang project with deploy scripts.
 
 # License
