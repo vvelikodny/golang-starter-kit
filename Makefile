@@ -16,7 +16,7 @@ clean:
 
 $(PROJECT_NAME): clean
 	@echo Building new bin for $(GOOS)/$(GOARCH)
-	CGO_ENABLED=$(CGO_ENABLED) GOOS=$(GOOS) GOARCH=$(GOARCH) go build -a -installsuffix cgo -o $(PROJECT_NAME) ./cmd/$(PROJECT_NAME)
+	CGO_ENABLED=$(CGO_ENABLED) GOOS=$(GOOS) GOARCH=$(GOARCH) go build -a -installsuffix cgo -o bin/$(PROJECT_NAME) ./cmd/$(PROJECT_NAME)
 
 docker-build-image: $(PROJECT_NAME)
 	docker build -t $(DOCKER_REGISTRY)/$(IMAGE) .

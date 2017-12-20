@@ -18,6 +18,5 @@ Run Docker container with application:
 ```
 make docker-run
 ```
-
 # License
 MIT License, please see [LICENSE](https://github.com/vvelikodny/golang-starter-kit/blob/master/LICENSE) for details. 
